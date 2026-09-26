@@ -9,9 +9,9 @@ const NavLink = () => {
     "Pricing",
     "Security",
   ];
-  return <div className="flex ml-15 gap-6 text-black items-center">
+  return <div className="flex ml-15 gap-6 text-black items-center ">
     {items.map((item, index) => (
-      <div key={index}>{item}</div>
+      <div key={index} className="cursor-pointer">{item}</div>
     ))}
   </div>;
 };
