@@ -86,7 +86,7 @@ const page = () => {
     setInput(suggestion);
   };
   return (
-    <div className="relative z-1000 min-h-screen w-screen bg-gray-200 overflow-y-auto overflow-x-hidden">
+    <div className="relative z-1000 min-h-screen w-auto bg-gray-200 overflow-y-auto overflow-x-hidden">
       <Navbar />
       <ChatArea
         messages={messages}

@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Button = (p) => {
-    console.log(p)
+
 
   return (
 
