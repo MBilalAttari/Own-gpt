@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 const Input = ({ setInput, sendMessage, input, messages }) => {
   return (
-    <div className={`w-full  flex fixed ${messages.length > 0 ? " bottom-6" : " bottom-30"} `}>
+    <div className={`w-full  flex fixed ${messages.length > 0 ? " bottom-6" : " bottom-20"} `}>
       <form
         onSubmit={(e) => {
           e.preventDefault();

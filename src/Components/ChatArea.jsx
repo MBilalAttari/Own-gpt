@@ -13,7 +13,7 @@ const ChatArea = ({ messages, handleSuggestion ,loading ,copiedIndex }) => {
 
 <section className="flex-1 w-full max-w-4xl mx-auto px-4 sm:px-6  py-25 min-h-screen overflow-auto">
   {messages.length === 0 ? (
-    <div className="min-h-[65vh] flex flex-col items-center justify-center text-center">
+    <div className="min-h-[65vh] flex flex-col items-center justify-start text-center">
 
       {/* Logo */}
       <div className="w-16 h-16 rounded-2xl bg-white flex items-center justify-center mb-6 shadow-lg border border-gray-100">
